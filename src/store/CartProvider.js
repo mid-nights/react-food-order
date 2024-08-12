@@ -6,7 +6,7 @@ const defaultCartState = {
   items: [],
   totalAmount: 0,
 };
-//samploee
+
 const cartReducer = (state, action) => {
   if (action.type === 'ADD') {
     const updatedTotalAmount =
